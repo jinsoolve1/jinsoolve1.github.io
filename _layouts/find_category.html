@@ -1,0 +1,8 @@
+{% for category in include.categories %}
+  {% if category.title == include.title %}
+    {% assign found_category = category %}
+  {% endif %}
+  {% if category.children %}
+    {% include find_category.liquid categories=category.children title=include.title %}
+  {% endif %}
+{% endfor %}

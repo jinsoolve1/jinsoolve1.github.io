@@ -1,0 +1,12 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "assets/images/posts_img",
+  "newLinkFormat": "absolute",
+  "focusNewTab": true,
+  "spellcheck": false,
+  "showUnsupportedFiles": true,
+  "showRibbon": true
+}

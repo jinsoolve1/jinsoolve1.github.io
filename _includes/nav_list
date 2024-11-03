@@ -1,0 +1,101 @@
+{% assign navigation = site.data.navigation[include.nav] %}
+
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  <ul class="nav__items">
+    <!-- <li>
+      <span class="nav__total">🌴 Total Posts: {{site.posts | size}}</span>
+    </li> -->
+    
+    {% for nav in navigation %}
+      <li>
+        {% if nav.url %}
+              <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+        {% else %}
+          <!-- title -->
+              <span class="nav__sub-title">{{ nav.title }}</span>
+              <hr>
+        {% endif %}
+
+        {% if nav.children != null %}
+        <ul>
+          {% for child in nav.children %}
+            <!-- sub-title -->
+            <li>
+              {% assign child_size = child.children.size %}
+
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>
+                  {{ child.title }}
+                </a>
+
+                {% if child_size %}
+                  <a href="#" class="toggle-link" onclick="toggleContent(event, '{{ child.title }}', this)" style="margin-left: auto; margin-right: auto;">
+                    <span class="toggle-icon" aria-hidden="true">+</span> <!-- 기본 아이콘 (펼쳐지지 않았을 때) -->
+                  </a>
+                {% endif %}
+              </div>
+
+              {% if child_size %}
+                <div id="{{ child.title | slugify }}" class="toggle-content" style="display: none;">
+                  <ul>
+                    {% for grand in child.children %}
+                      <li>
+                        <a href="{{ grand.url | relative_url }}"{% if grand.url == page.url %} class="active"{% endif %}>
+                          {{ grand.title }}
+                          {% if grand_size %}
+                            ({{ grand_size }})
+                          {% endif %}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+
+              <style>
+                .toggle-content {
+                  transition: all 10.3s ease; /* 부드러운 전환 효과 */
+                }
+                .toggle-link {
+                  display: flex; /* Flexbox 사용 */
+                  align-items: center; /* 수직 중앙 정렬 */
+                  text-decoration: none; /* 링크의 기본 밑줄 제거 */
+                  color: inherit; /* 텍스트 색상 상속 */
+                  cursor: pointer; /* 커서 포인터로 변경 */
+                }
+
+                .toggle-icon {
+                  font-weight: bold; /* 아이콘 강조 */
+                  line-height: 1; /* 라인 높이 조정 */
+                }
+              </style>
+
+              <script>
+                function toggleContent(event, title, link) {
+                  event.preventDefault();  // 기본 링크 클릭 동작 방지
+                  var content = document.getElementById(title.replace(/\s+/g, '-').toLowerCase()); // ID로 콘텐츠 찾기
+
+                  // 내용 토글
+                  if (content.style.display === "none") {
+                    content.style.display = "block"; // 보이기
+                    link.querySelector('.toggle-icon').textContent = "-"; // 펼쳤을 때 아이콘 변경
+                  } else {
+                    content.style.display = "none"; // 숨기기
+                    link.querySelector('.toggle-icon').textContent = "+"; // 펼쳐지지 않았을 때 아이콘 변경
+                  }
+                }
+              </script>
+            </li>
+
+
+
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

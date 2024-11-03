@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "00d1161b15c741c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "96561a28807b21fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28b541ba4417bd86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-20-boj-1462.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "56038321e4ae78f8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "536da0c6686371ed",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "c633c1f3a8f17569",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "58d7a7f1ebc43734",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "95fe630a11ee9ac6",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "34b9a3b91f5f1bce",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6929e22e80307b1e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "_posts/2024-09-20-boj-1462.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7cb693ce49e9ff22",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "_posts/2024-09-20-boj-1462.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7b5ace4c3d1ce172",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "_posts/2024-09-20-boj-1462.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "28b541ba4417bd86",
+  "lastOpenFiles": [
+    "_posts/2024-09-10-boj-17407.md",
+    "_posts/2024-09-20-boj-1462.md",
+    "_posts/2024-09-13-test.md",
+    "_site/tags/test/index.html",
+    "_site/algorithm theory/test/index.html",
+    "_site/algorithm theory/test",
+    "_site/algorithm theory",
+    "_site/tags/test"
+  ]
+}

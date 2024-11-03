@@ -1,0 +1,14 @@
+{
+  "snippets_file": "tog : <details>$nl$<summary>더보기</summary>$nl$$end$$nl$</details>$nl$",
+  "snippets": [
+    "tog : <details>$nl$<summary>더보기</summary>$nl$$end$$nl$</details>$nl$"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}
