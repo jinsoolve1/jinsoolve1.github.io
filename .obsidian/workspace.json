@@ -16,7 +16,9 @@
                 "file": "_posts/2024-09-20-boj-1462.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-09-20-boj-1462"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "2024-09-20-boj-1462의 백링크"
             }
           },
           {
@@ -105,7 +115,9 @@
                 "file": "_posts/2024-09-20-boj-1462.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "2024-09-20-boj-1462의 나가는 링크"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,7 +140,9 @@
               "type": "outline",
               "state": {
                 "file": "_posts/2024-09-20-boj-1462.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "2024-09-20-boj-1462 개요"
             }
           }
         ],
@@ -138,18 +154,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
   "active": "4af7fe2415a0b853",
   "lastOpenFiles": [
+    "_posts/2024-11-06-.md",
+    "_posts/2024-09-20-boj-1462.md",
     "_site/problem solving/boj-1462/index.html",
     "_site/problem solving/boj-1462",
     "_posts/2024-09-13-test.md",
@@ -166,7 +184,6 @@
     "_site/problem solving/boj-17407",
     "_posts/2024-09-03-boj-1432.md",
     "_site/problem solving/boj-1432/index.html",
-    "_site/problem solving/boj-1432",
     "_posts/2024-09-02-boj-1498.md",
     "_posts/2024-08-30-boj-9623.md",
     "_posts/2024-08-22-boj-11883.md",
@@ -185,7 +202,6 @@
     "_posts/무제 파일 2.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-08-07-boj-25323.md",
-    "_posts/2024-08-05-boj-1585.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
